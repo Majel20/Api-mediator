@@ -74,3 +74,4 @@ C:\Users\lenovo\source\repos\FirstApi\FirstApi\obj\Debug\net8.0\refint\FirstApi.
 C:\Users\lenovo\source\repos\FirstApi\FirstApi\obj\Debug\net8.0\FirstApi.pdb
 C:\Users\lenovo\source\repos\FirstApi\FirstApi\obj\Debug\net8.0\FirstApi.genruntimeconfig.cache
 C:\Users\lenovo\source\repos\FirstApi\FirstApi\obj\Debug\net8.0\ref\FirstApi.dll
+C:\Users\lenovo\source\repos\FirstApi\FirstApi\obj\Debug\net8.0\FirstApi.sourcelink.json
