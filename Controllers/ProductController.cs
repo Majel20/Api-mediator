@@ -4,7 +4,6 @@ using MediatR;
 using Microsoft.AspNetCore.Http;
 using FirstApi.CQRS.Commands;
 using Newtonsoft.Json;
-using FirstApi.Model;
 using FirstApi.CQRS.Queries;
 using System.Reflection.Metadata.Ecma335;
 
@@ -50,7 +49,7 @@ namespace FirstApi.Controllers
 
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdatePerson(UpdateProductCommand product)
+        public async Task<IActionResult> UpdateProduct(UpdateProductCommand product)
         {
             var producting = await _mediator.Send(product);
             return Ok(producting);

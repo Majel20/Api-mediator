@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using FirstApi.Interfaces;
 using FirstApi.Model;
 using FirstApi.Repository;
+using FirstApi.CQRS.Commands;
+using FirstApi.CQRS.Handlers;
 
 
 
@@ -23,6 +25,7 @@ builder.Services.AddControllers();
 builder.Services.AddMediatR(cfg => { cfg.RegisterServicesFromAssembly(typeof(Program).Assembly); });
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
+//builder.Services.AddScoped(typeof(IRequestHandler<UpdateProductCommand, Product>), typeof(UpdateProductHandler));
 
 var app = builder.Build();
 app.MapControllers();

@@ -34,9 +34,17 @@ namespace FirstApi.Repository
 
         public async Task<Product?> DeleteProduct(Product del_product)
         {
-            productContext.ProductItems.Remove(del_product);
-            await productContext.SaveChangesAsync();
-            return del_product!;
+            if (del_product != null)
+            {
+                productContext.ProductItems.Remove(del_product);
+                await productContext.SaveChangesAsync();
+                return del_product;
+            }
+            else
+            {
+                return null;
+            }
         }
+
     }
 }

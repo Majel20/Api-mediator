@@ -15,7 +15,7 @@ namespace FirstApi.CQRS.Handlers
 
         public DeleteProductHandler(IProductRepository productRepository, ProductContext productContext)
         {
-            _productRepository = _productRepository;
+            _productRepository = productRepository;
             _productContext = productContext;
         }
 
