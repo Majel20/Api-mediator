@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rCI+Pq0/mUFI92EAHMIsDCXVd9+XKAg1YXSJ57OT0xIveCrUrqAQGnGg6SOD+EhJtb1vBPtCe9skqcIjBsYr5A==",
+  "dgSpecHash": "SDbpPwmp1yfxZuPaLRUBHZJvxdV4NJOMnoPZXrqfhAsaYqBPA9X1Oc7fYYo4k0WtNCp+J41kriFcoBOsMh1RIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\lenovo\\source\\repos\\FirstApi\\FirstApi\\FirstApi.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\lenovo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\lenovo\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
@@ -137,16 +137,5 @@
     "C:\\Users\\lenovo\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 nécessite MediatR (>= 11.0.0 && < 12.0.0) alors que la version MediatR 12.2.0 a été résolue.",
-      "libraryId": "MediatR",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
